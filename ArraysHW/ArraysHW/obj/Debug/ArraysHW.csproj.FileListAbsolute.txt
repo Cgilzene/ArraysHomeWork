@@ -1,0 +1,7 @@
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\ArraysListEnumStackHW\ArraysHW\ArraysHW\bin\Debug\ArraysHW.exe.config
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\ArraysListEnumStackHW\ArraysHW\ArraysHW\bin\Debug\ArraysHW.exe
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\ArraysListEnumStackHW\ArraysHW\ArraysHW\bin\Debug\ArraysHW.pdb
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\ArraysListEnumStackHW\ArraysHW\ArraysHW\obj\Debug\ArraysHW.csprojAssemblyReference.cache
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\ArraysListEnumStackHW\ArraysHW\ArraysHW\obj\Debug\ArraysHW.csproj.CoreCompileInputs.cache
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\ArraysListEnumStackHW\ArraysHW\ArraysHW\obj\Debug\ArraysHW.exe
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\ArraysListEnumStackHW\ArraysHW\ArraysHW\obj\Debug\ArraysHW.pdb
