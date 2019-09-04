@@ -1,0 +1,7 @@
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorClass\bin\Debug\CalculatorClass.exe.config
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorClass\bin\Debug\CalculatorClass.exe
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorClass\bin\Debug\CalculatorClass.pdb
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorClass\obj\Debug\CalculatorClass.csprojAssemblyReference.cache
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorClass\obj\Debug\CalculatorClass.csproj.CoreCompileInputs.cache
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorClass\obj\Debug\CalculatorClass.exe
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorClass\obj\Debug\CalculatorClass.pdb
