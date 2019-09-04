@@ -31,10 +31,30 @@ namespace CalculatorWpf
             calculations cal = new calculations();
             double val1 = int.Parse(Value1_TxtBox.Text);
             double val2 = int.Parse(Value2_TxtBox.Text);
+            double result;
 
-            
-            double result = cal.Add(val1, val2);
-            MessageBox.Show("The Answer is :" + result);
+
+
+            switch (Functions_Combobx.SelectedIndex)
+            {
+                case 0:
+                    result = cal.Add(val1, val2);
+                    MessageBox.Show("The Answer is :" + result);
+                    break;
+                case 1:
+                     result = cal.Subtract(val1, val2);
+                    MessageBox.Show("The Answer is :" + result);
+                    break;
+                case 2:
+                     result = cal.Multiply(val1, val2);
+                    MessageBox.Show("The Answer is :" + result);
+                    break;
+                case 3:
+                     result = cal.Divide(val1, val2);
+                    MessageBox.Show("The Answer is :" + result);
+                    break;
+               
+            }
         }
 
         private void Value1_TxtBox_TextChanged(object sender, TextChangedEventArgs e)
