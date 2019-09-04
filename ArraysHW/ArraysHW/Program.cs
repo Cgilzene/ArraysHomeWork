@@ -39,12 +39,15 @@ namespace ArraysHW
                         arraynumbers.Add(m);
                         arraynumbers.Add(n);
                         arraynumbers.Add(threeD[l, m, n]);
-                        Console.WriteLine(arraynumbers[3]);
+                        // Console.WriteLine(arraynumbers[3]);
+                        //Console.WriteLine(threeD[l,m,n]);
                     }
+
+                    //var value1 = threeD[l,m,n];
                 }
             }
 
-            return arraynumbers[1];
+            return threeD[2,3,7];
 
             //List<int> arraynumbers = new List<int>();
 
