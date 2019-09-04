@@ -13,3 +13,7 @@ C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\Calculat
 C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorWpf\obj\Debug\CalculatorWpf.csproj.CoreCompileInputs.cache
 C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorWpf\obj\Debug\CalculatorWpf.exe
 C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorWpf\obj\Debug\CalculatorWpf.pdb
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorWpf\bin\Debug\CalculatorClass.exe
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorWpf\bin\Debug\CalculatorClass.pdb
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorWpf\bin\Debug\CalculatorClass.exe.config
+C:\Users\Canute Gilzene\Documents\Engineering_40\HomeWork\CalculatorWPF\CalculatorClass\CalculatorWpf\obj\Debug\CalculatorWpf.csproj.CopyComplete
