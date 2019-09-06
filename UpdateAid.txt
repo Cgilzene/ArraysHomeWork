@@ -1,0 +1,2 @@
+// UpdateCommand.CommandText = "UPDATE army SET(troop1 = @troop1, troop2 = @troop2, troop3 = @troop3, hero = @hero) WHERE username = ryan";
+               // UpdateCommand.Parameters.AddWithValue("@troop1", troop1);

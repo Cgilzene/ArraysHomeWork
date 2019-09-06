@@ -13,8 +13,10 @@ namespace ConsoleApp1
         {
             //Create create = new Create();
             //create.insert();
-            Read read = new Read();
-            read.readTable();
+            // Read read = new Read();
+            // read.readTable();
+            Update update = new Update();
+            update.updateTable();
         }
     }
      class Game
@@ -128,23 +130,68 @@ namespace ConsoleApp1
 
             string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CSharpGame;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection conn = new SqlConnection(connectionString);
-            string UpdateTable = "UPDATE name FROM Game WHERE name = tetris";
+            
+
 
             try
             {
                 conn.Open();
 
+                string UpdateTable = "UPDATE Game " + "SET name = @name ";
 
                 SqlCommand UpdateCommand = new SqlCommand(UpdateTable, conn);
 
+
+                UpdateCommand.Parameters.AddWithValue("@name", "PacMan");
+
                 Console.WriteLine(conn.State);
 
-                SqlDataReader reader = UpdateCommand.ExecuteReader();
-
+                SqlDataReader update = UpdateCommand.ExecuteReader();
 
                 
-              
-               
+
+            }
+            catch (SqlException ex)
+            {
+
+                Console.WriteLine("Something happened to server " + ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+    }
+
+    class Delete
+    {
+
+        public void deleteRow()
+        {
+            Game game1 = new Game();
+
+
+            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CSharpGame;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            SqlConnection conn = new SqlConnection(connectionString);
+
+
+
+            try
+            {
+                conn.Open();
+
+                string UpdateTable = "UPDATE Game " + "SET name = @name ";
+
+                SqlCommand UpdateCommand = new SqlCommand(UpdateTable, conn);
+
+
+                UpdateCommand.Parameters.AddWithValue("@name", "PacMan");
+
+                Console.WriteLine(conn.State);
+
+                SqlDataReader update = UpdateCommand.ExecuteReader();
+
 
 
             }
